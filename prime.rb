@@ -6,5 +6,6 @@ def prime?(x)
   (2...x).each do |y|
     return false if x % y == 0
   end
-  true
-end
+  true 
+end 
+
